@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": "forum-user",
+    "password": 1234,
+    "database": "forum",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": { },
+  "production": { }
+}
