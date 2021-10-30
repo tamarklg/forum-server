@@ -9,7 +9,7 @@ const messageRoutes = require('./message');
 const router = new Router({ prefix: '/api' });
 
 router.use(loginRoutes);
-router.use(isAuthenticated, userRoutes);
+router.use(userRoutes);
 router.use(isAuthenticated, messageRoutes);
 
 module.exports = router.routes();
